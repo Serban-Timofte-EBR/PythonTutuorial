@@ -1,4 +1,4 @@
-// Do not forget to instal: pip3 install translate
+# Do not forget to instal: pip3 install translate
 from translate import Translator
 
 translator= Translator(to_lang="ja")
