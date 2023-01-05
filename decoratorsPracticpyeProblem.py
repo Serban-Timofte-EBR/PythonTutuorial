@@ -10,7 +10,6 @@ user1 = {
 }
 
 def authenticated(fn):
-  # code here
   def wrapper(*args, **kawrgs):
     if args[0]['valid']:
       return fn(*args, **kawrgs)
